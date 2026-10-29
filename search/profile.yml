@@ -1,0 +1,29 @@
+# Values from the owner's answers (2026-10-29); unknowns left null, not guessed.
+candidate:
+  name: Kalyan Venkata Swamy Karnati
+  location: Boston, MA
+needs_sponsorship: false
+sponsorship_gate: "non-issue — sponsorship history is not used as a skip gate"
+target_role:
+  primary: Product Manager (health tech)
+  secondary: Product / GTM roles (health tech)
+  excluded: Associate Product Manager (APM) roles; non-product roles
+  industry: health tech only
+  company_size: any
+visa:
+  type: F-1
+  current_status: "F-1 (final semester; post-completion OPT planned, not yet filed)"
+  opt_filed: false
+  ead_start_date: null
+  opt_end_date: null
+  unemployment_days_used: 0
+  unemployment_days_as_of: 2026-10-29
+  unemployment_ceiling: 90
+  buffer_target: 10  # days of the 90-day ceiling kept unused = employed by unemployment day 80
+  stem_eligible: "uncertain"
+  notes: OPT not yet filed, so EAD start and OPT end are unknown. STEM eligibility uncertain, not confirmed with DSO. Unemployment days are 0 because OPT has not started.
+geography:
+  current_location: Boston, MA
+  open_to_remote: true
+  open_to_relocation: true
+  preferred: any US location

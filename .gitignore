@@ -80,3 +80,16 @@ youtube/**/*.bak-*
 
 # DOL OFLC wage-data zips + full exports (fetched by scripts/contrib/2026fa/mayank-1024-wage-level-floor/fetch-oflc.sh)
 /data/dol/oflc/raw/
+
+# Large upstream 80-days-to-stay datasets (re-download from github.com/nikbearbrown/80-Days-to-Stay, Data/)
+data/80-days-to-stay/data/SEC_DOL_H1b_data_mapped.csv
+data/80-days-to-stay/data/SEC_data_flattend.csv
+
+search/private-notes.md
+
+Kalyan_Karnati_Resume_Product_GTM (2).pdf
+
+# search/ files committed for the 2026fa assignment (owner decision, 2026-10-29); only search/private-notes.md stays ignored.
+!/search/profile.yml
+!/search/resume.json
+!/search/gaps.md

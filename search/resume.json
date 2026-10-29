@@ -1,0 +1,262 @@
+{
+  "attested": true,
+  "attested_date": "2026-10-29",
+  "attestation_note": "Three errors corrected: (1) Andor Health start date: the source résumé listed May 2025; actual Jan 2026 (offer letter). (2) Andor Health title: the source résumé listed \"Product Manager\"; actual \"Product Manager Intern\". (3) PM Sponsor Check claimed only 9 sponsors had PM sponsorship; the data only shows 9 of 352 listed a PM title among top sponsored roles (81% also reframed as a measured baseline, not a success metric).",
+  "_comment": "REAL PERSONAL DATA - committed for the 2026fa assignment (owner decision, 2026-10-29). Extracted 2026-10-26 from Kalyan_Karnati_Resume_Product_GTM (2).pdf, following the search/examples/*/resume.example.json schema. Phone, email and street address deliberately omitted. Owner corrections applied 2026-10-29.",
+  "personal": {
+    "name": "Kalyan Venkata Swamy Karnati",
+    "location": "Boston, MA",
+    "linkedin": "linkedin.com/in/kalyanvskarnati",
+    "github": "github.com/kalyan-northeastern",
+    "medium": "medium.com/@kalyankarnati0928"
+  },
+  "education": [
+    {
+      "institution": "Northeastern University",
+      "location": "Boston, MA",
+      "degree": "MS, Information Systems",
+      "start_date": null,
+      "note": "not on résumé; unconfirmed",
+      "end_date": "2026-12",
+      "status": "expected",
+      "agent_note": "Start date and GPA are not on the resume."
+    },
+    {
+      "institution": "RV Institute of Technology and Management",
+      "location": null,
+      "degree": "B.Tech, Computer Science and Engineering",
+      "start_date": null,
+      "note": "not on résumé; unconfirmed",
+      "end_date": "2023-08",
+      "status": "completed",
+      "agent_note": "Start date and location are not on the resume."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Center for Research Innovation, Northeastern University",
+      "location": "Boston, MA",
+      "title": "R&D Product & GTM Associate",
+      "employment_type": "part-time",
+      "start_date": "2026-04",
+      "end_date": "present",
+      "bullets": [
+        "Opened licensing and partnership conversations with Qualcomm, Broadcom, and Intel by launching a go-to-market outreach pipeline for Prof. Francesco Restuccia's Wi-Fi MIMO portfolio to alumni and industry leaders.",
+        "Achieved a 20%+ reply rate by segmenting prospects into 4 buyer personas (Executive, Engineering, BD/Product, Research) and framing a 90%+ overhead cut and 24.5% throughput gain as clear business value in tailored briefs."
+      ],
+      "metrics": [
+        { "value": 20, "unit": "percent", "qualifier": "at least", "measure": "outreach reply rate" },
+        { "value": 4, "unit": "count", "measure": "buyer personas defined" }
+      ],
+      "named_organizations": ["Qualcomm", "Broadcom", "Intel"],
+      "skills_used": ["Go-to-market", "Customer segmentation", "Persona-based messaging", "B2B outreach"],
+      "attestation_correction": "",
+      "agent_note": "The 90%+ overhead cut and 24.5% throughput gain describe the technology being marketed, not the candidate's own results, so they are not recorded as metrics (owner agreed 2026-10-29). Location supplied by owner 2026-10-29; employment type not stated."
+    },
+    {
+      "company": "Andor Health Ventures Inc.",
+      "location": "Orlando, FL",
+      "title": "Product Manager Intern",
+      "employment_type": "internship",
+      "start_date": "2026-01",
+      "end_date": "2026-08",
+      "bullets": [
+        "Shipped 12+ feature releases with 100% milestone adherence for an AI-powered virtual care platform serving 5,000+ users by owning the full product lifecycle from market research and requirement gathering through QA and launch.",
+        "Shaped product positioning and the go-to-market roadmap by running SQL-driven usage and market analysis across 50K+ user interaction data points to identify and prioritize high-impact feature opportunities for care teams.",
+        "Reduced stakeholder misalignment by 35% and sped up feature approvals by 20% by translating complex engineering specs into concise product briefs that aligned 15+ stakeholders across 5 cross-functional teams on priorities and timelines."
+      ],
+      "metrics": [
+        { "value": 12, "unit": "count", "qualifier": "at least", "measure": "feature releases shipped" },
+        { "value": 100, "unit": "percent", "measure": "milestone adherence" },
+        { "value": 5000, "unit": "count", "qualifier": "at least", "measure": "platform users" },
+        { "value": 50000, "unit": "count", "qualifier": "at least", "measure": "user interaction data points analyzed" },
+        { "value": 35, "unit": "percent", "direction": "reduction", "measure": "stakeholder misalignment" },
+        { "value": 20, "unit": "percent", "direction": "faster", "measure": "feature approvals" },
+        { "value": 15, "unit": "count", "qualifier": "at least", "measure": "stakeholders aligned" },
+        { "value": 5, "unit": "count", "measure": "cross-functional teams" }
+      ],
+      "domain": "health tech (virtual care)",
+      "skills_used": ["Product lifecycle", "Market research", "Requirements gathering", "QA", "SQL", "Roadmapping", "Product briefs"],
+      "attestation_correction": "Resume said 'Product Manager', May 2025 - Aug 2026 - corrected by owner 2026-10-29: Product Manager Intern, Jan 2026 - Aug 2026.",
+      "agent_note": "Overlaps the MS program and the CRI role (Apr-Aug 2026). Employment type (full-time, part-time, co-op/CPT) is not stated - left null rather than inferred from the title."
+    },
+    {
+      "company": "Codeft Software Solutions",
+      "location": "Hyderabad, India",
+      "title": "Software Engineer",
+      "employment_type": "internship",
+      "start_date": "2024-01",
+      "end_date": "2024-08",
+      "bullets": [
+        "Delivered a 99.8% verification success rate and cut login-related support tickets by launching a redesigned mobile sign-in experience with design and backend teams that removed onboarding friction for every new and returning app user."
+      ],
+      "metrics": [
+        { "value": 99.8, "unit": "percent", "measure": "sign-in verification success rate" }
+      ],
+      "skills_used": ["Mobile sign-in redesign", "Cross-team delivery"],
+      "attestation_correction": "",
+      "agent_note": "The support-ticket reduction has no number on the resume, so none is recorded."
+    },
+    {
+      "company": "Honeywell Technology Solutions",
+      "location": "Bengaluru, India",
+      "title": "Software Development Engineer",
+      "employment_type": "internship",
+      "start_date": "2023-03",
+      "end_date": "2023-08",
+      "bullets": [
+        "Cut average task completion time by 35% for 200+ engineers across 5 teams by leading user research with SRE engineers and redesigning the CamPortal experience around the highest-impact user pain points and most-used flows.",
+        "Increased platform adoption by 40% and cut onboarding time by 25% by running 30+ usability evaluation sessions, turning structured feedback into prioritized iterative releases, and authoring 15+ pages of documentation."
+      ],
+      "metrics": [
+        { "value": 35, "unit": "percent", "direction": "reduction", "measure": "average task completion time" },
+        { "value": 200, "unit": "count", "qualifier": "at least", "measure": "engineers served" },
+        { "value": 5, "unit": "count", "measure": "teams served" },
+        { "value": 40, "unit": "percent", "direction": "increase", "measure": "platform adoption" },
+        { "value": 25, "unit": "percent", "direction": "reduction", "measure": "onboarding time" },
+        { "value": 30, "unit": "count", "qualifier": "at least", "measure": "usability evaluation sessions" },
+        { "value": 15, "unit": "pages", "qualifier": "at least", "measure": "documentation authored" }
+      ],
+      "named_products": ["CamPortal"],
+      "skills_used": ["User research", "Usability testing", "Iterative releases", "Documentation"],
+      "attestation_correction": "",
+      "agent_note": "Ends the same month as the B.Tech (2023-08); employment type not stated."
+    },
+    {
+      "company": "InfoInfinit Tech LLP",
+      "location": "Delhi, India",
+      "title": "Data Analyst",
+      "employment_type": null,
+      "note": "not on résumé; unconfirmed",
+      "start_date": "2022-04",
+      "end_date": "2022-12",
+      "bullets": [
+        "Cut report generation time by 40% and sped up evidence-based decisions for 12+ stakeholders by defining KPIs and delivering 8 interactive Power BI dashboards on SQL-cleaned data across 50K+ records for Fish Andhra."
+      ],
+      "metrics": [
+        { "value": 40, "unit": "percent", "direction": "reduction", "measure": "report generation time" },
+        { "value": 12, "unit": "count", "qualifier": "at least", "measure": "stakeholders" },
+        { "value": 8, "unit": "count", "measure": "Power BI dashboards delivered" },
+        { "value": 50000, "unit": "count", "qualifier": "at least", "measure": "records cleaned" }
+      ],
+      "client": "Fish Andhra",
+      "skills_used": ["KPI definition", "Power BI", "SQL"],
+      "attestation_correction": "",
+      "agent_note": "Falls during the B.Tech; employment type (internship vs. job) not stated."
+    },
+    {
+      "company": "Pojo Software Pvt Ltd",
+      "location": "Delhi, India",
+      "title": "Technical Content Developer",
+      "employment_type": null,
+      "note": "not on résumé; unconfirmed",
+      "start_date": "2020-02",
+      "end_date": "2020-08",
+      "bullets": [
+        "Lifted learner performance by 22% in pilot testing for 1,000+ learners by distilling complex STEM topics into 30+ curriculum-aligned modules, validated with 8+ subject matter experts through iterative reviews for 100% accuracy."
+      ],
+      "metrics": [
+        { "value": 22, "unit": "percent", "direction": "increase", "measure": "learner performance in pilot testing" },
+        { "value": 1000, "unit": "count", "qualifier": "at least", "measure": "learners" },
+        { "value": 30, "unit": "count", "qualifier": "at least", "measure": "curriculum modules" },
+        { "value": 8, "unit": "count", "qualifier": "at least", "measure": "subject matter experts" },
+        { "value": 100, "unit": "percent", "measure": "content accuracy after review" }
+      ],
+      "skills_used": ["Technical writing", "Curriculum design"],
+      "attestation_correction": "",
+      "agent_note": "Falls during the B.Tech; employment type (internship vs. job) not stated."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Teladoc Product Teardown & PRD",
+      "start_date": "2026-10",
+      "end_date": "2026-10",
+      "type": null,
+      "note": "not on résumé; unconfirmed",
+      "team_size": null,
+      "focus": ["Product Strategy", "User Journey Mapping", "Metrics"],
+      "bullets": [
+        "Mapped Teladoc's end-to-end virtual care user journey, pinpointed a key friction point for patients, and wrote a PRD with a metrics tree and success criteria to measure the impact of the proposed fix on the overall patient experience."
+      ],
+      "deliverables": ["User journey map", "PRD", "Metrics tree"],
+      "agent_note": "A project, not employment. Type (coursework vs. personal) and team size not stated."
+    },
+    {
+      "name": "PM Sponsor Check - Job-Search Product for International PMs",
+      "start_date": "2026-10",
+      "end_date": "2026-10",
+      "type": "coursework",
+      "team_size": null,
+      "focus": ["Product Discovery", "Metrics", "Python"],
+      "bullets": [
+        "Identified an unmet need for early-career international PMs, sizing the gap at 352 health-tech H-1B sponsors (9 of 352 listed a PM title among their top sponsored roles), then wrote the product brief, measured an 81% baseline precision, and pitched it in a 3.5-minute film."
+      ],
+      "metrics": [
+        { "value": 352, "unit": "count", "measure": "health-tech H-1B sponsors identified" },
+        { "value": 9, "unit": "count", "measure": "of those 352 listing a PM title among their top sponsored roles" },
+        { "value": 81, "unit": "percent", "measure": "measured baseline precision" },
+        { "value": 3.5, "unit": "minutes", "measure": "pitch film length" }
+      ],
+      "deliverables": ["Product brief", "Baseline precision measurement", "Pitch film"],
+      "repo_path": "scripts/contrib/2026fa/kalyan-karnati-pm-title-sponsor-scan/",
+      "attestation_correction": "Resume said 'only 9 with PM sponsorship' and called 81% a success metric - corrected by owner 2026-10-29: 9 of 352 listed a PM title among top sponsored roles; 81% is a measured baseline precision.",
+      "agent_note": "A project, not employment. Owner confirmed 2026-10-29 that it matches the pm-title-sponsor-scan script in this repo."
+    },
+    {
+      "name": "FinSight - Personal Finance App",
+      "start_date": "2025-12",
+      "end_date": "2025-12",
+      "type": "coursework",
+      "team_size": "4",
+      "focus": ["Feature Ownership", "UX", "Agile"],
+      "bullets": [
+        "Owned the Dashboard and Transaction Management features of a 4-person team's finance app, deciding what users see first (balance, income vs. expense, category spend, monthly trends) and adding search and filters, shipped live."
+      ],
+      "features_owned": ["Dashboard", "Transaction Management"],
+      "shipped": true,
+      "agent_note": "A project, not employment."
+    },
+    {
+      "name": "MooKit - Move-In Kit Business & KPI Dashboard",
+      "start_date": "2024",
+      "end_date": "2024",
+      "type": null,
+      "note": "not on résumé; unconfirmed",
+      "team_size": null,
+      "focus": ["Business Modeling", "KPIs", "Power BI"],
+      "bullets": [
+        "Framed a move-in kit business for international students around customizable pricing tiers and furniture buyback, then defined its KPIs in a Power BI dashboard tracking monthly revenue, stock levels, and customer-support resolution."
+      ],
+      "deliverables": ["Business model", "Power BI KPI dashboard"],
+      "agent_note": "A project, not employment. Resume gives only the year."
+    }
+  ],
+  "skills": {
+    "product_management": ["Product discovery", "PRDs", "User stories", "Backlog prioritization", "Roadmapping", "Agile/Scrum", "UAT"],
+    "go_to_market": ["Market & competitive research", "Customer segmentation", "Persona-based messaging", "B2B outreach"],
+    "data_tools": ["SQL", "Excel", "Power BI", "Tableau", "Python", "Jira", "Salesforce", "Google Workspace", "Claude"],
+    "familiar_with_not_shipped": [],
+    "agent_note": "Grouped as on the resume. familiar_with_not_shipped left empty - the resume does not separate shipped from familiar skills; owner to fill."
+  },
+  "certifications": [
+    {
+      "name": "Professional Scrum Product Owner I",
+      "abbreviation": "PSPO I",
+      "issuer": "Scrum.org",
+      "year": "2026",
+      "credential_id": null,
+      "note": "not on résumé; unconfirmed",
+      "agent_note": "Issuer supplied by owner 2026-10-29. Credential ID not on the resume."
+    },
+    {
+      "name": "Google Project Management Certificate",
+      "abbreviation": null,
+      "issuer": "Google",
+      "year": "2026",
+      "credential_id": null,
+      "note": "not on résumé; unconfirmed",
+      "agent_note": "Credential ID not on the resume."
+    }
+  ]
+}
